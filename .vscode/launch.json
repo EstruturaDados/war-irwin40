@@ -5,14 +5,14 @@
       "name": "Debug C",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/war.exe",
+      "program": "${workspaceFolder}/war",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",
       "environment": [],
       "externalConsole": true,
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
       "preLaunchTask": "Compilar C"
     }
   ]
